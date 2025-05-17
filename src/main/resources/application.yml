@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: skillswapbackend
+  datasource:
+    url: jdbc:mysql://localhost:3306/skillswap
+    username: root
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+security:
+  jwt:
+    secret-key: dsadhgashjdgsahjdgsahj
+    expiration-time: 3600000
