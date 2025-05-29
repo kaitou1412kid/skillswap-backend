@@ -16,7 +16,7 @@ public class ApplicationConfiguration {
 
     private final UserRepository userRepository;
 
-    private ApplicationConfiguration(UserRepository userRepository) {
+    public ApplicationConfiguration(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
 
