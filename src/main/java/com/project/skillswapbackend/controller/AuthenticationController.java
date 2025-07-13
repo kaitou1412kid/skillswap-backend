@@ -1,13 +1,11 @@
 package com.project.skillswapbackend.controller;
 
-import com.project.skillswapbackend.dto.request.UserLoginDTO;
-import com.project.skillswapbackend.dto.request.UserRegisterDTO;
-import com.project.skillswapbackend.dto.response.LoginResponse;
+import com.project.skillswapbackend.auth.dto.request.UserLoginDTO;
+import com.project.skillswapbackend.auth.dto.request.UserRegisterDTO;
+import com.project.skillswapbackend.auth.dto.response.LoginResponse;
 import com.project.skillswapbackend.model.User;
-import com.project.skillswapbackend.service.AuthenticationService;
-import com.project.skillswapbackend.service.JwtService;
-import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.project.skillswapbackend.auth.service.AuthenticationService;
+import com.project.skillswapbackend.auth.service.JwtService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

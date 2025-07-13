@@ -1,11 +1,10 @@
-package com.project.skillswapbackend.service;
+package com.project.skillswapbackend.auth.service;
 
-import com.project.skillswapbackend.dto.request.UserLoginDTO;
-import com.project.skillswapbackend.dto.request.UserRegisterDTO;
+import com.project.skillswapbackend.auth.dto.request.UserLoginDTO;
+import com.project.skillswapbackend.auth.dto.request.UserRegisterDTO;
 import com.project.skillswapbackend.model.User;
 import com.project.skillswapbackend.repository.UserRepository;
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;

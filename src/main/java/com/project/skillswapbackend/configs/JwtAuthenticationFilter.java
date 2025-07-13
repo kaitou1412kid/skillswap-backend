@@ -1,6 +1,6 @@
 package com.project.skillswapbackend.configs;
 
-import com.project.skillswapbackend.service.JwtService;
+import com.project.skillswapbackend.auth.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

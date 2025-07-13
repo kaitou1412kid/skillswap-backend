@@ -1,4 +1,4 @@
-package com.project.skillswapbackend.dto.response;
+package com.project.skillswapbackend.auth.dto.response;
 
 import lombok.Data;
 import lombok.Getter;

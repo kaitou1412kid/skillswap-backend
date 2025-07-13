@@ -1,4 +1,4 @@
-package com.project.skillswapbackend.service;
+package com.project.skillswapbackend.auth.service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

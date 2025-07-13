@@ -1,4 +1,4 @@
-package com.project.skillswapbackend.dto.request;
+package com.project.skillswapbackend.auth.dto.request;
 
 import lombok.Data;
 
